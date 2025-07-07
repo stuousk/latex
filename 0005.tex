@@ -1,0 +1,54 @@
+% !TEX TS-program = lualatex
+
+\documentclass{article}
+\usepackage{fontspec}
+\setmainfont{Nanum Gothic}
+
+\begin{document}
+{\Huge 표 추가}
+
+\section{개요}
+개요는 다음과 같다.
+
+\subsection{실험 대상}
+빨대
+
+% 표 추가.
+\begin{table}   
+\caption{예시 표}
+\begin{tabular}{|c|l|r|}
+\hline
+Header 1 & Header 2 & Header 3 \\ % 열 제목
+\hline
+Row 1, Col 1 & Row 1, Col 2 & Row 1, Col 3 \\
+Row 2, Col 1 & Row 2, Col 2 & Row 2, Col 3 \\
+\hline
+\end{tabular}
+\end{table}
+
+% 표 추가. [h]때문에 맨 위에 붙는다.
+\begin{table}[h]
+\caption{예시 표}
+\begin{tabular}{|c|l|r|}
+\hline
+Header 1 & Header 2 & Header 3 \\ % 열 제목
+\hline
+Row 1, Col 1 & Row 1, Col 2 & Row 1, Col 3 \\
+Row 2, Col 1 & Row 2, Col 2 & Row 2, Col 3 \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{선정 이유}
+이 과제를 선정한 이유는 다음과 같다. 
+
+\subsection{환경적 이유}
+환경적으로.. 
+
+\subsection{경제적 이유}
+경제적으로.. 
+
+\subsubsection{경제적 이유 첫번째}
+첫번째로는
+
+\end{document}
